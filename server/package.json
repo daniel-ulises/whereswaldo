@@ -1,16 +1,17 @@
 {
-  "name": "waldo-server",
-  "version": "1.0.0",
-  "description": "Where's Waldo backend",
-  "main": "app.js",
-  "repository": "https://github.com/daniel-ulises/Waldo",
-  "author": "Daniel Ulises",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.12.1"
-  },
-  "devDependencies": {
-    "dotenv": "^8.2.0"
-  }
+	"name": "waldo-server",
+	"version": "1.0.0",
+	"description": "Where's Waldo backend",
+	"main": "app.js",
+	"repository": "https://github.com/daniel-ulises/WheresWaldo",
+	"author": "Daniel Ulises",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.12.1"
+	},
+	"devDependencies": {
+		"dotenv": "^8.2.0"
+	}
 }

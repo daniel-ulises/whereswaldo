@@ -1,0 +1,12 @@
+.game {
+	width: 90%;
+	margin: 2rem auto;
+	display: flex;
+	align-items: center;
+}
+.level-img {
+	width: 1200px;
+	margin: auto;
+	border: 1.5rem solid var(--main-color);
+	border-radius: 20px;
+}

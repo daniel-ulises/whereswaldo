@@ -2,14 +2,10 @@ const router = require("express").Router();
 const Score = require("../models/highScore");
 
 router.post("/", (req, res) => {
-	const score = new Score({
-		name: String,
-		time: Number,
-	});
-
+	const score = new Score(req.body);
 	score
 		.save()
-		.then(result => res.send(result))
+		.then(result => res.redirect("/leaderboards"))
 		.catch(error => console.log(error));
 });
 

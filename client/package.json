@@ -3,11 +3,12 @@
 	"version": "1.0.0",
 	"private": true,
 	"proxy": "http://127.0.0.1:3001",
-	"repository": "https://github.com/daniel-ulises/Waldo",
+	"repository": "https://github.com/daniel-ulises/WheresWaldo",
 	"dependencies": {
 		"axios": "^0.21.1",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
+		"react-router-dom": "^5.2.0",
 		"react-scripts": "4.0.3"
 	},
 	"scripts": {

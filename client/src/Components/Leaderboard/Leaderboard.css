@@ -1,0 +1,48 @@
+nav {
+	padding: 1rem;
+	color: var(--font-color);
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.table-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.table-header {
+	text-align: center;
+	padding: 1rem;
+}
+
+.table-1,
+.table-2,
+.table-3 {
+	width: 50%;
+	margin: 1rem auto;
+	background-color: var(--secondary-color);
+	padding: 1rem;
+	box-shadow: 0 0 0.4rem black;
+}
+
+table {
+	table-layout: fixed;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 1rem;
+	width: 100%;
+	margin: auto;
+}
+
+td,
+th {
+	padding: 0.6rem;
+}
+
+table tr:nth-child(even) {
+	background-color: var(--main-color);
+	color: var(--font-color);
+}

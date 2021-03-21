@@ -1,0 +1,86 @@
+:root {
+	--font-color: #dadada;
+	--main-color: #9b2727;
+	--secondary-color: #8d99ae;
+	--bg-color: #2b2d42;
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../assets/font/Montserrat-Regular.otf);
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--bg-color);
+	font-family: Montserrat;
+}
+
+a {
+	text-decoration: none;
+	color: var(--font-color);
+}
+
+a:hover {
+	color: var(--main-color);
+}
+
+.leaders {
+	position: fixed;
+	text-align: right;
+	top: 10%;
+	left: -3rem;
+	background-color: var(--main-color);
+	color: var(--font-color);
+	padding: 0.5rem 2rem;
+	width: 13rem;
+	border-radius: 10px;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.425);
+}
+
+.leaders a:hover {
+	color: var(--font-color);
+	text-decoration: underline;
+}
+
+main {
+	padding: 1rem;
+}
+
+.logo {
+	text-align: center;
+	margin: 2rem auto -0.25rem;
+}
+
+.welcome {
+	width: 50%;
+	margin: auto;
+	padding: 2rem;
+	background-color: var(--main-color);
+	color: var(--font-color);
+	border-radius: 10px;
+}
+
+.welcome h2 {
+	text-align: center;
+	margin: 1rem auto;
+}
+
+.levels > div {
+	padding: 2rem 1rem;
+	background-color: var(--main-color);
+	width: 30%;
+	text-align: center;
+	margin: 1rem auto;
+	border-radius: 10px;
+}
+.levels img {
+	width: 20rem;
+}
