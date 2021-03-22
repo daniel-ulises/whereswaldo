@@ -11,19 +11,24 @@ const Score1 = require("./API/level1-score");
 const Score2 = require("./API/level2-score");
 const Score3 = require("./API/level3-score");
 const newScore = require("./API/newScore");
+const cors = require("cors");
 
 // Express App and PORT
 const app = express();
 const PORT = process.env.PORT || 3001;
-
 // Setting up connection to DB
 mongoose.connect(process.env.MONGO_URI, {useNewUrlParser: true, useUnifiedTopology: true});
 db.on("error", console.error.bind(console, "connection error:"));
 db.once("open", () => {
 	console.log("Connected to db");
-	app.listen(PORT, () => console.log("Server is running!"));
+	app.listen(PORT, () => console.log("Server is running"));
 });
 
+app.use(
+	cors({
+		origin: "http://localhost:5000",
+	})
+);
 app.use(express.urlencoded({extended: true}));
 
 // Routes

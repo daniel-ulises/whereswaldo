@@ -10,17 +10,17 @@ export default function Leaderboard() {
 
 	useEffect(() => {
 		axios
-			.get("http://localhost:3001/API/level1-score")
+			.get("https://api.daniel-ulises.me/API/level1-score")
 			.then(res => setLevel1(res.data))
 			.catch(err => console.log(err));
 
 		axios
-			.get("http://localhost:3001/API/level2-score")
+			.get("https://api.daniel-ulises.me/API/level2-score")
 			.then(res => setLevel2(res.data))
 			.catch(err => console.log(err));
 
 		axios
-			.get("http://localhost:3001/API/level3-score")
+			.get("https://api.daniel-ulises.me/API/level3-score")
 			.then(res => setLevel3(res.data))
 			.catch(err => console.log(err));
 	}, []);

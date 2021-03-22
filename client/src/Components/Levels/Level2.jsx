@@ -12,7 +12,7 @@ function Level2() {
 
 	// API Call to get X and Y coords for Waldo
 	useEffect(() => {
-		axios.get("http://localhost:3001/API/level2-coords").then(res => {
+		axios.get("https://api.daniel-ulises.me/API/level2-coords").then(res => {
 			setCoordsY(res.data.coordsY);
 			setCoordsX(res.data.coordsX);
 		});
@@ -28,6 +28,8 @@ function Level2() {
 
 	// Checking the X and Y coords to see if Waldo is where you click
 	const eventHandler = e => {
+		console.log(coordsY, coordsX);
+		console.log(e.nativeEvent.offsetY, e.nativeEvent.offsetX);
 		if (
 			e.nativeEvent.offsetY >= coordsY.min &&
 			e.nativeEvent.offsetY <= coordsY.max &&
