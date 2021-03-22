@@ -12,7 +12,7 @@ function Level2() {
 
 	// API Call to get X and Y coords for Waldo
 	useEffect(() => {
-		axios.get("/API/level2-coords").then(res => {
+		axios.get("http://localhost:3001/API/level2-coords").then(res => {
 			setCoordsY(res.data.coordsY);
 			setCoordsX(res.data.coordsX);
 		});
@@ -34,8 +34,6 @@ function Level2() {
 			e.nativeEvent.offsetX >= coordsX.min &&
 			e.nativeEvent.offsetX <= coordsX.max
 		) {
-			console.log("You did ut!");
-
 			setFound(true); // Make the Modal appear to input your name
 		}
 	};

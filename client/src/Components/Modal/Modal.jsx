@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "./Modal.css";
 
 function Modal(props) {
@@ -8,7 +8,7 @@ function Modal(props) {
 				<h3>Congratulations! You found him in {props.time} seconds!</h3>
 				<p>Now insert your name and be part of the leaderboard!</p>
 
-				<form method="POST" action="/API/add-score">
+				<form method="POST" action="http://localhost:3001/API/add-score">
 					<div>
 						<label htmlFor="name" id="name">
 							Name
