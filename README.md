@@ -9,4 +9,4 @@ I've used React for the front end, for the Backend I used Express and MongoDB wi
 
 ## Live Demo
 
-You can play the game [here](https://daniel-ulises.me/)
+You can play the game [here](https://daniel-ulises.github.io/Waldo/#/waldo)
