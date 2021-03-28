@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.20b483cb.chunk.css",
-    "main.js": "/static/js/main.db13f9a5.chunk.js",
-    "main.js.map": "/static/js/main.db13f9a5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9423b8f2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9423b8f2.js.map",
-    "static/js/2.64d836ec.chunk.js": "/static/js/2.64d836ec.chunk.js",
-    "static/js/2.64d836ec.chunk.js.map": "/static/js/2.64d836ec.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.20b483cb.chunk.css.map": "/static/css/main.20b483cb.chunk.css.map",
-    "static/js/2.64d836ec.chunk.js.LICENSE.txt": "/static/js/2.64d836ec.chunk.js.LICENSE.txt",
-    "static/media/Main.css": "/static/media/Montserrat-Regular.65bc44fb.otf",
-    "static/media/waldo-logo.5c006962.png": "/static/media/waldo-logo.5c006962.png",
-    "static/media/wally1.7f93905f.jpg": "/static/media/wally1.7f93905f.jpg",
-    "static/media/wally2.769f3b52.jpg": "/static/media/wally2.769f3b52.jpg",
-    "static/media/wally3.3267c383.jpg": "/static/media/wally3.3267c383.jpg"
+    "main.css": "/Waldo/static/css/main.7cd67530.chunk.css",
+    "main.js": "/Waldo/static/js/main.db13f9a5.chunk.js",
+    "main.js.map": "/Waldo/static/js/main.db13f9a5.chunk.js.map",
+    "runtime-main.js": "/Waldo/static/js/runtime-main.b20c3738.js",
+    "runtime-main.js.map": "/Waldo/static/js/runtime-main.b20c3738.js.map",
+    "static/js/2.64d836ec.chunk.js": "/Waldo/static/js/2.64d836ec.chunk.js",
+    "static/js/2.64d836ec.chunk.js.map": "/Waldo/static/js/2.64d836ec.chunk.js.map",
+    "index.html": "/Waldo/index.html",
+    "static/css/main.7cd67530.chunk.css.map": "/Waldo/static/css/main.7cd67530.chunk.css.map",
+    "static/js/2.64d836ec.chunk.js.LICENSE.txt": "/Waldo/static/js/2.64d836ec.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/Waldo/static/media/Montserrat-Regular.65bc44fb.otf",
+    "static/media/waldo-logo.5c006962.png": "/Waldo/static/media/waldo-logo.5c006962.png",
+    "static/media/wally1.7f93905f.jpg": "/Waldo/static/media/wally1.7f93905f.jpg",
+    "static/media/wally2.769f3b52.jpg": "/Waldo/static/media/wally2.769f3b52.jpg",
+    "static/media/wally3.3267c383.jpg": "/Waldo/static/media/wally3.3267c383.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9423b8f2.js",
+    "static/js/runtime-main.b20c3738.js",
     "static/js/2.64d836ec.chunk.js",
-    "static/css/main.20b483cb.chunk.css",
+    "static/css/main.7cd67530.chunk.css",
     "static/js/main.db13f9a5.chunk.js"
   ]
 }
