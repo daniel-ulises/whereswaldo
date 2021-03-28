@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Waldo/static/css/main.7cd67530.chunk.css",
-    "main.js": "/Waldo/static/js/main.db13f9a5.chunk.js",
-    "main.js.map": "/Waldo/static/js/main.db13f9a5.chunk.js.map",
-    "runtime-main.js": "/Waldo/static/js/runtime-main.b20c3738.js",
-    "runtime-main.js.map": "/Waldo/static/js/runtime-main.b20c3738.js.map",
-    "static/js/2.64d836ec.chunk.js": "/Waldo/static/js/2.64d836ec.chunk.js",
-    "static/js/2.64d836ec.chunk.js.map": "/Waldo/static/js/2.64d836ec.chunk.js.map",
-    "index.html": "/Waldo/index.html",
-    "static/css/main.7cd67530.chunk.css.map": "/Waldo/static/css/main.7cd67530.chunk.css.map",
-    "static/js/2.64d836ec.chunk.js.LICENSE.txt": "/Waldo/static/js/2.64d836ec.chunk.js.LICENSE.txt",
-    "static/media/Main.css": "/Waldo/static/media/Montserrat-Regular.65bc44fb.otf",
-    "static/media/waldo-logo.5c006962.png": "/Waldo/static/media/waldo-logo.5c006962.png",
-    "static/media/wally1.7f93905f.jpg": "/Waldo/static/media/wally1.7f93905f.jpg",
-    "static/media/wally2.769f3b52.jpg": "/Waldo/static/media/wally2.769f3b52.jpg",
-    "static/media/wally3.3267c383.jpg": "/Waldo/static/media/wally3.3267c383.jpg"
+    "main.css": "/whereswaldo/static/css/main.00fbdedd.chunk.css",
+    "main.js": "/whereswaldo/static/js/main.6cc7ab95.chunk.js",
+    "main.js.map": "/whereswaldo/static/js/main.6cc7ab95.chunk.js.map",
+    "runtime-main.js": "/whereswaldo/static/js/runtime-main.729506a0.js",
+    "runtime-main.js.map": "/whereswaldo/static/js/runtime-main.729506a0.js.map",
+    "static/js/2.bb1efb67.chunk.js": "/whereswaldo/static/js/2.bb1efb67.chunk.js",
+    "static/js/2.bb1efb67.chunk.js.map": "/whereswaldo/static/js/2.bb1efb67.chunk.js.map",
+    "index.html": "/whereswaldo/index.html",
+    "static/css/main.00fbdedd.chunk.css.map": "/whereswaldo/static/css/main.00fbdedd.chunk.css.map",
+    "static/js/2.bb1efb67.chunk.js.LICENSE.txt": "/whereswaldo/static/js/2.bb1efb67.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/whereswaldo/static/media/Montserrat-Regular.65bc44fb.otf",
+    "static/media/waldo-logo.5c006962.png": "/whereswaldo/static/media/waldo-logo.5c006962.png",
+    "static/media/wally1.7f93905f.jpg": "/whereswaldo/static/media/wally1.7f93905f.jpg",
+    "static/media/wally2.769f3b52.jpg": "/whereswaldo/static/media/wally2.769f3b52.jpg",
+    "static/media/wally3.3267c383.jpg": "/whereswaldo/static/media/wally3.3267c383.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b20c3738.js",
-    "static/js/2.64d836ec.chunk.js",
-    "static/css/main.7cd67530.chunk.css",
-    "static/js/main.db13f9a5.chunk.js"
+    "static/js/runtime-main.729506a0.js",
+    "static/js/2.bb1efb67.chunk.js",
+    "static/css/main.00fbdedd.chunk.css",
+    "static/js/main.6cc7ab95.chunk.js"
   ]
 }
