@@ -1,4 +1,4 @@
-<div style="text-align: center"><img src="https://raw.githubusercontent.com/daniel-ulises/WheresWaldo/master/client/src/assets/img/waldo-logo.png?token=AQLKCYX4WJSPCSEAZMZDTF3AMGFS4" alt="Where's Waldo?"/></div>
+<div style="text-align: center"><img src="https://raw.githubusercontent.com/daniel-ulises/whereswaldo/master/client/src/assets/img/waldo-logo.png?token=AQLKCYX4WJSPCSEAZMZDTF3AMGFS4" alt="Where's Waldo?"/></div>
 
 # Where's Waldo?
 
