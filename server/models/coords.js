@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+// Creating a new Schema for the database
 const imgCoords = new Schema({
 	id: String,
 	coordsX: {

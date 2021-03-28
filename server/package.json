@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Where's Waldo backend",
 	"main": "app.js",
-	"repository": "https://github.com/daniel-ulises/WheresWaldo",
+	"repository": "https://github.com/daniel-ulises/wheres-waldo",
 	"author": "Daniel Ulises",
 	"license": "MIT",
 	"dependencies": {

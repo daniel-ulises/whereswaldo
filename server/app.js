@@ -16,7 +16,8 @@ const cors = require("cors");
 // Express App and PORT
 const app = express();
 const PORT = process.env.PORT || 3001;
-// Setting up connection to DB
+
+// Setting up connection to DB using Mongoose
 mongoose.connect(process.env.MONGO_URI, {useNewUrlParser: true, useUnifiedTopology: true});
 db.on("error", console.error.bind(console, "connection error:"));
 db.once("open", () => {
@@ -24,11 +25,13 @@ db.once("open", () => {
 	app.listen(PORT, () => console.log("Server is running"));
 });
 
+// Allwing the client to connect to the API
 app.use(
 	cors({
-		origin: "http://localhost:5000",
+		origin: process.env.ORIGIN_CLIENT,
 	})
 );
+
 app.use(express.urlencoded({extended: true}));
 
 // Routes

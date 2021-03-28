@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"private": true,
 	"proxy": "http://127.0.0.1:3001",
-	"repository": "https://github.com/daniel-ulises/WheresWaldo",
+	"repository": "https://github.com/daniel-ulises/wheres-waldo",
 	"dependencies": {
 		"axios": "^0.21.1",
 		"react": "^17.0.1",
@@ -14,8 +14,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
@@ -31,5 +30,8 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"gh-pages": "^3.1.0"
 	}
 }

@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import {Link} from "react-router-dom";
 import axios from "axios";
 import Footer from "../Footer/Footer";
 import "./Leaderboard.css";
@@ -49,9 +50,9 @@ export default function Leaderboard() {
 	return (
 		<>
 			<nav>
-				<a href="/">
+				<Link to="/waldo">
 					<h4>Home</h4>
-				</a>
+				</Link>
 			</nav>
 			<div className="table-container">
 				<div className="table-1">

@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import {Link} from "react-router-dom";
 import axios from "axios";
 import Level from "../../assets/img/wally2.jpg";
 import Modal from "../Modal/Modal";
@@ -28,8 +29,6 @@ function Level2() {
 
 	// Checking the X and Y coords to see if Waldo is where you click
 	const eventHandler = e => {
-		console.log(coordsY, coordsX);
-		console.log(e.nativeEvent.offsetY, e.nativeEvent.offsetX);
 		if (
 			e.nativeEvent.offsetY >= coordsY.min &&
 			e.nativeEvent.offsetY <= coordsY.max &&
@@ -43,9 +42,9 @@ function Level2() {
 	return (
 		<>
 			<nav>
-				<a href="/">
+				<Link to="/waldo">
 					<h4>Home</h4>
-				</a>
+				</Link>
 			</nav>
 			<div className="game">
 				<img src={Level} alt="Level 2" onClick={eventHandler} className="level-img" />

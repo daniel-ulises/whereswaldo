@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import {Link} from "react-router-dom";
 import axios from "axios";
 import Level from "../../assets/img/wally1.jpg";
 import Modal from "../Modal/Modal";
@@ -40,9 +41,9 @@ function Level1() {
 	return (
 		<>
 			<nav>
-				<a href="/">
+				<Link to="/waldo">
 					<h4>Home</h4>
-				</a>
+				</Link>
 			</nav>
 			<div className="game">
 				<img src={Level} alt="Level 1" onClick={eventHandler} className="level-img" />

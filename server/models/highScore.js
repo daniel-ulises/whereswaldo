@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+// Creating a new Schema to save players' scores
 const Highscore = new Schema(
 	{
 		name: String,

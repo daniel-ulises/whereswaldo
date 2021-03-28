@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import Logo from "../assets/img/waldo-logo.png";
 import Level1 from "../assets/img/wally1.jpg";
 import Level2 from "../assets/img/wally2.jpg";
@@ -11,9 +12,9 @@ export default function Main() {
 		<>
 			<main>
 				<div className="leaders">
-					<a href="/leaderboards">
+					<Link to="/leaderboards">
 						<span>Leaderboards</span>
-					</a>
+					</Link>
 				</div>
 				<div className="logo">
 					<img src={Logo} alt="Waldo Logo" />
@@ -30,19 +31,19 @@ export default function Main() {
 				</div>
 				<div className="levels">
 					<div>
-						<a href="/level-1">
+						<Link to="/level-1">
 							<img src={Level1} alt="Level 1" />
-						</a>
+						</Link>
 					</div>
 					<div>
-						<a href="/level-2">
+						<Link to="/level-2">
 							<img src={Level2} alt="Level 2" />
-						</a>
+						</Link>
 					</div>
 					<div>
-						<a href="/level-3">
+						<Link to="/level-3">
 							<img src={Level3} alt="Level 3" />
-						</a>
+						</Link>
 					</div>
 				</div>
 			</main>

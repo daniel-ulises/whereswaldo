@@ -5,8 +5,9 @@
 	align-items: center;
 }
 .level-img {
-	width: 1200px;
+	min-width: 1200px;
+	max-width: 1200px;
 	margin: auto;
-	border: 1.5rem solid var(--main-color);
-	border-radius: 20px;
+	/* border: 1.5rem solid var(--main-color); */
+	/* border-radius: 20px; */
 }
