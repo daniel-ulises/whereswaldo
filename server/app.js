@@ -25,7 +25,7 @@ db.once("open", () => {
 	app.listen(PORT, () => console.log("Server is running"));
 });
 
-// Allwing the client to connect to the API
+// Allowing the client to connect to the API
 app.use(
 	cors({
 		origin: process.env.ORIGIN_CLIENT,

@@ -46,7 +46,6 @@ export default function Leaderboard() {
 		</tr>
 	));
 
-	console.log(level1, level2, level3);
 	return (
 		<>
 			<nav>
