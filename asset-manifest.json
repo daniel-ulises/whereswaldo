@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/whereswaldo/static/css/main.143bab65.chunk.css",
-    "main.js": "/whereswaldo/static/js/main.4a4f54af.chunk.js",
-    "main.js.map": "/whereswaldo/static/js/main.4a4f54af.chunk.js.map",
+    "main.css": "/whereswaldo/static/css/main.06be3533.chunk.css",
+    "main.js": "/whereswaldo/static/js/main.f132f140.chunk.js",
+    "main.js.map": "/whereswaldo/static/js/main.f132f140.chunk.js.map",
     "runtime-main.js": "/whereswaldo/static/js/runtime-main.5781e452.js",
     "runtime-main.js.map": "/whereswaldo/static/js/runtime-main.5781e452.js.map",
     "static/js/2.c6f04731.chunk.js": "/whereswaldo/static/js/2.c6f04731.chunk.js",
     "static/js/2.c6f04731.chunk.js.map": "/whereswaldo/static/js/2.c6f04731.chunk.js.map",
     "index.html": "/whereswaldo/index.html",
-    "static/css/main.143bab65.chunk.css.map": "/whereswaldo/static/css/main.143bab65.chunk.css.map",
+    "static/css/main.06be3533.chunk.css.map": "/whereswaldo/static/css/main.06be3533.chunk.css.map",
     "static/js/2.c6f04731.chunk.js.LICENSE.txt": "/whereswaldo/static/js/2.c6f04731.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/whereswaldo/static/media/Montserrat-Regular.65bc44fb.otf",
     "static/media/waldo-logo.5c006962.png": "/whereswaldo/static/media/waldo-logo.5c006962.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.5781e452.js",
     "static/js/2.c6f04731.chunk.js",
-    "static/css/main.143bab65.chunk.css",
-    "static/js/main.4a4f54af.chunk.js"
+    "static/css/main.06be3533.chunk.css",
+    "static/js/main.f132f140.chunk.js"
   ]
 }
