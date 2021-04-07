@@ -12,7 +12,7 @@ function Level1() {
 	const [found, setFound] = useState(false);
 	// API Call to get X and Y coords for Waldo
 	useEffect(() => {
-		axios.get("https://api.daniel-ulises.me/API/level1-coords").then(res => {
+		axios.get(process.env.REACT_APP_LVL_1_COORDS).then(res => {
 			setCoordsY(res.data.coordsY);
 			setCoordsX(res.data.coordsX);
 		});

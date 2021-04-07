@@ -60,7 +60,8 @@ main {
 }
 
 .welcome {
-	width: 50%;
+	width: 30rem;
+	max-width: 90%;
 	margin: auto;
 	padding: 2rem;
 	background-color: var(--main-color);
@@ -74,13 +75,14 @@ main {
 }
 
 .levels > div {
-	padding: 2rem 1rem;
+	padding: 1.5rem;
 	background-color: var(--main-color);
-	width: 30%;
+	width: 30rem;
+	max-width: 90%;
 	text-align: center;
 	margin: 1rem auto;
 	border-radius: 10px;
 }
 .levels img {
-	width: 20rem;
+	width: 100%;
 }

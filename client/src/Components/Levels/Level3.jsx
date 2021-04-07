@@ -13,7 +13,7 @@ function Level3() {
 
 	// API Call to get X and Y coords for Waldo
 	useEffect(() => {
-		axios.get("https://api.daniel-ulises.me/API/level3-coords").then(res => {
+		axios.get(process.env.REACT_APP_LVL_3_COORDS).then(res => {
 			setCoordsY(res.data.coordsY);
 			setCoordsX(res.data.coordsX);
 		});
